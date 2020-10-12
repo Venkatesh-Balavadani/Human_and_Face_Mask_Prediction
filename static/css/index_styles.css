@@ -1,0 +1,50 @@
+.index-content{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100%;
+}
+
+.prediction-buttons{
+	display: inline;
+	border: 2px grey solid;
+	border-radius: 10px;
+	padding: 50px;
+	height: 50%;
+	margin: 50px;
+	align-items: center;
+}
+
+img{
+	height: 350px;
+	width: 270px;
+}
+
+.image-div{
+	display: block;
+	clear:both;
+	margin: 10px;
+}
+
+.button-div{
+	display: block;
+	clear: both;
+	text-align: center;
+}
+
+input{
+	background-color: grey;
+	padding: 15px;
+	color: black;
+	border-radius: 5px;
+	font-size: 25px;
+}
+
+input:hover{
+	background-color: #a6a6a6;
+}
+
+#heading{
+	text-align: center;
+}
+

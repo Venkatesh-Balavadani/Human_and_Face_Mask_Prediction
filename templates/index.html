@@ -1,0 +1,29 @@
+<html>
+<head>
+<title> Prediction Task </title>
+<link rel="stylesheet" href= "{{url_for ('static', filename='css/index_styles.css')}}">
+</head>
+<body>
+<form action='/upload' method='post'>
+<div class="index-content">
+	<div class="prediction-buttons">
+		<div class="image-div">
+			<img src="{{url_for('static', filename='images/human_image.png')}}" />
+		</div>
+		<div class="button-div">
+			<input type='submit' name='predict_button' value='Human Detection'>
+		</div>
+	</div>
+	<div class="prediction-buttons">
+		<div class="image-div">
+			<img src="{{url_for('static', filename='images/face_mask.png')}}" />
+		</div>
+		<div class="button-div">
+			<input type='submit' name='predict_button' value='Face Mask Detection'>
+		</div>
+	</div>
+</div>
+</form>
+<body>
+</html>
+
